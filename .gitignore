@@ -1,0 +1,17 @@
+.idea
+node_modules
+screenshots
+npm-debug.log
+local.log
+yarn-error.log
+
+public/
+styleguide/
+.vscode/
+coverage/
+build/
+/lib/
+
+\.awcache/
+
+dist/

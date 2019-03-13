@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "baseUrl": "src",
+        "rootDir": "src",
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strict": true,
+        "strictNullChecks": false,
+        "allowSyntheticDefaultImports": false,
+        "sourceMap": true,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "declaration": true,
+        "lib": ["es2015", "dom"]
+    },
+    "exclude": ["node_modules", "dist", "src/**/*.test.tsx"],
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": false,
+        "useCache": true,
+        "sourceMap": true
+    }
+}
